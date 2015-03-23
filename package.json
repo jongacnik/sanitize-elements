@@ -1,6 +1,6 @@
 {
   "name": "sanitize-elements",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Makes sure you've got dom elements, if dom elements are what you want",
   "repository": {
     "type": "git",
