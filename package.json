@@ -1,0 +1,32 @@
+{
+  "name": "sanitize-elements",
+  "version": "0.1.0",
+  "description": "Makes sure you've got dom elements, if dom elements are what you want",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amongiants/sanitize-elements"
+  },
+  "main": "sanitize-elements.js",
+  "dependencies": {
+    "is-array": "^1.0.1",
+    "is-element": "^0.1.0",
+    "is-object": "^1.0.1"
+  },
+  "keywords": [
+    "elements",
+    "dom",
+    "node",
+    "array",
+    "check"
+  ],
+  "author": "Jon Gacnik <jon@folderstudio.com> (http://jongacnik.com/)",
+  "license": "WTFPL",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-dist": "browserify sanitize-elements.js --s sanitizeElements > dist/sanitize-elements.bundled.js"
+  },
+  "bugs": {
+    "url": "https://github.com/amongiants/sanitize-elements/issues"
+  },
+  "homepage": "https://github.com/amongiants/sanitize-elements"
+}
